@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Room } from './rooms';
+import { Room, RoomList } from './rooms';
 
 @Component({
   selector: 'hinv-rooms',
