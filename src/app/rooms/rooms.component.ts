@@ -6,21 +6,44 @@ import { Room } from './rooms';
   standalone: true,
   imports: [],
   templateUrl: './rooms.component.html',
-  styleUrl: './rooms.component.scss'
+  styleUrl: './rooms.component.scss',
 })
-
 export class RoomsComponent implements OnInit {
-  hotelName = 'Hilton Hotel'
+  hotelName = 'Hilton Hotel';
 
   numberOfRooms = 10;
 
   hideRooms = false;
 
-  rooms : Room = {
+  rooms: Room = {
     totalRooms: 20,
-    availableRooms: 10,
-    bookedRooms: 5
-  }
+    availableRooms: 15,
+    bookedRooms: 5,
+  };
+
+  roomsList: RoomList[] = [
+    {
+      roomType: 'Deluxe Room',
+      ameneties: 'Air Conditioner, Free Wi-Fi',
+      price: 500,
+      checkinTime: new Date('11-Nov-2021'),
+      checkoutTime: '12-Nov-2021',
+    },
+    {
+      roomType: 'Super Deluxe Room',
+      ameneties: 'Air Conditioner, Free Wi-Fi, alcony',
+      price: 600,
+      checkinTime: new Date('11-Nov-2021'),
+      checkoutTime: '12-Nov-2021',
+    },
+    {
+      roomType: 'Luxury Suite',
+      ameneties: 'Air Conditioner, Free Wi-Fi, Sea view',
+      price: 700,
+      checkinTime: new Date('11-Nov-2021'),
+      checkoutTime: '12-Nov-2021',
+    },
+  ];
 
   constructor() {}
 
