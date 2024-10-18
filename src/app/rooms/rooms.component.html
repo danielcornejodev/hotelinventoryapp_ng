@@ -18,7 +18,7 @@
             <th>Ameneties</th>
             <th>Checkin Time</th>
         </tr>
-        <tr *ngFor="let room of roomsList; let e = even; let o = odd; let i = index">
+        <tr  [ngClass]="e ? 'Even' : 'Odd'" *ngFor="let room of roomsList; let e = even; let o = odd; let i = index">
             <td>{{i}}</td>
             <td>{{e ? "Even" : "Odd"}}</td>
             <td>{{room.roomNumber}} </td>

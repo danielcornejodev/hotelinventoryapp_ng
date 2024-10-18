@@ -34,7 +34,7 @@ export class RoomsComponent implements OnInit {
     {
       roomNumber: 2,
       roomType: 'Super Deluxe Room',
-      ameneties: 'Air Conditioner, Free Wi-Fi, alcony',
+      ameneties: 'Air Conditioner, Free Wi-Fi, Balcony',
       price: 600,
       checkinTime: new Date('11-Nov-2021'),
       checkoutTime: new Date('12-Nov-2021'),
