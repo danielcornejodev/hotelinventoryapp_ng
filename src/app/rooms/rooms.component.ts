@@ -26,7 +26,7 @@ export class RoomsComponent implements OnInit {
     {
       roomNumber: 1,
       roomType: 'Deluxe Room',
-      ameneties: 'Air Conditioner, Free Wi-Fi',
+      amenities: 'Air Conditioner, Free Wi-Fi',
       price: 500,
       checkinTime: new Date('11-Nov-2021'),
       checkoutTime: new Date('12-Nov-2021'),
@@ -34,7 +34,7 @@ export class RoomsComponent implements OnInit {
     {
       roomNumber: 2,
       roomType: 'Super Deluxe Room',
-      ameneties: 'Air Conditioner, Free Wi-Fi, Balcony',
+      amenities: 'Air Conditioner, Free Wi-Fi, Balcony',
       price: 600,
       checkinTime: new Date('11-Nov-2021'),
       checkoutTime: new Date('12-Nov-2021'),
@@ -42,7 +42,7 @@ export class RoomsComponent implements OnInit {
     {
       roomNumber: 3,
       roomType: 'Luxury Suite',
-      ameneties: 'Air Conditioner, Free Wi-Fi, Sea view',
+      amenities: 'Air Conditioner, Free Wi-Fi, Sea view',
       price: 700,
       checkinTime: new Date('11-Nov-2021'),
       checkoutTime: new Date('12-Nov-2021'),
