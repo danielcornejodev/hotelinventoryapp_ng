@@ -2,12 +2,12 @@
 
 <div [hidden]="hideRooms">
     Number of Rooms:
-    <div [ngStyle]="{'color' : rooms?.availableRooms ? 'green' : 'red'}" [innerText]="numberOfRooms"></div>
+    <div [ngStyle]="{'color' : rooms.availableRooms ? 'green' : 'red'}" [innerText]="numberOfRooms"></div>
 </div>
 
-{{ rooms?.availableRooms ?? "No rooms available"}}
+{{ rooms.availableRooms ?? "No rooms available"}}
 
-<div *ngIf = "rooms?.availableRooms">
+<div *ngIf = "rooms.availableRooms">
     Rooms List
      <table>
         <tr>
